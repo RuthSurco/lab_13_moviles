@@ -7,7 +7,7 @@ Laboratorio de la semana 13: creación y personalización de animaciones en Jetp
 | --- | --- | --- |
 | 1 | `AnimatedVisibility` con `fadeIn` / `fadeOut` | ✅ |
 | 2 | `animateColorAsState` (tween / spring) | ✅ |
-| 3 | `animateDpAsState` + `Modifier.offset` | ⏳ |
+| 3 | `animateDpAsState` + `Modifier.offset` | ✅ |
 | 4 | `AnimatedContent` (Cargando / Contenido / Error) | ⏳ |
 | Final | Animaciones combinadas (prototipo de videojuego) | ⏳ |
 | Extra | Codelab de animaciones (3 pts) | ⏳ |
@@ -24,4 +24,5 @@ Laboratorio de la semana 13: creación y personalización de animaciones en Jetp
 - `app/src/main/java/com/tecsup/lab13animaciones/Lab13App.kt`
 - `app/src/main/java/com/tecsup/lab13animaciones/ui/exercises/Exercise1VisibilityScreen.kt`
 - `app/src/main/java/com/tecsup/lab13animaciones/ui/exercises/Exercise2ColorScreen.kt`
+- `app/src/main/java/com/tecsup/lab13animaciones/ui/exercises/Exercise3SizePositionScreen.kt`
 - `app/src/main/java/com/tecsup/lab13animaciones/ui/theme/`
