@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import com.tecsup.lab13animaciones.ui.exercises.Exercise1VisibilityScreen
 import com.tecsup.lab13animaciones.ui.exercises.Exercise2ColorScreen
 import com.tecsup.lab13animaciones.ui.exercises.Exercise3SizePositionScreen
+import com.tecsup.lab13animaciones.ui.exercises.Exercise4AnimatedContentScreen
 
 /**
  * Contenedor principal del laboratorio. Permite navegar entre los ejercicios
@@ -45,12 +46,18 @@ fun Lab13App() {
                 onClick = { selectedTab = 2 },
                 text = { Text("Ejercicio 3") }
             )
+            Tab(
+                selected = selectedTab == 3,
+                onClick = { selectedTab = 3 },
+                text = { Text("Ejercicio 4") }
+            )
         }
 
         when (selectedTab) {
             0 -> Exercise1VisibilityScreen()
             1 -> Exercise2ColorScreen()
-            else -> Exercise3SizePositionScreen()
+            2 -> Exercise3SizePositionScreen()
+            else -> Exercise4AnimatedContentScreen()
         }
     }
 }
