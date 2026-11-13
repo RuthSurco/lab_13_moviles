@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.tecsup.lab13animaciones.ui.exercises.Exercise1VisibilityScreen
 import com.tecsup.lab13animaciones.ui.theme.Lab13Theme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +20,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Exercise1VisibilityScreen()
+                    Lab13App()
                 }
             }
         }
